@@ -7,12 +7,11 @@ yoloenv/
 *.tmp
 
 # large data and outputs
-dataset/
 results/
 runs/
 yolov8n.pt
 
-
+# ignore dataset except processed
 dataset/*
 !dataset/processed/
 !dataset/processed/**
