@@ -1,17 +1,16 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.tmp
 .env
 venv/
 yoloenv/
-*.tmp
-
-# large data and outputs
-results/
-runs/
 yolov8n.pt
 
-# ignore dataset except processed
 dataset/*
+!dataset/
 !dataset/processed/
 !dataset/processed/**
+
+!runs/
+!results/
