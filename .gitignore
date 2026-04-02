@@ -11,3 +11,8 @@ dataset/
 results/
 runs/
 yolov8n.pt
+
+
+dataset/*
+!dataset/processed/
+!dataset/processed/**
