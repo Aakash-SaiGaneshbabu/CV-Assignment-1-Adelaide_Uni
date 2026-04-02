@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+venv/
+yoloenv/
+*.tmp
+
+# large data and outputs
+dataset/
+results/
+runs/
+yolov8n.pt
